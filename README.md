@@ -1,3 +1,36 @@
+## Create a small application that supports the following: (complete it in 48 hours (2 days) max)
+
+### User Registration
+- User registration should create an OTP request to confirm the account
+### User Login - login should use a database of user information to validate the login
+- If you are using the AWS standard cognito/IAM registration, please style it differently to mask the normal implementation and include more advanced functionality such as social login with at least one social provider (e.g. gmail or facebook)
+### Homepage - the homepage must display something interesting / useful with at least two integrations and should format for larger screen and phone.
+- One integration should display the results from an internal database query using a GraphQL API request that is displayed back to the user
+- The second integration should be to a third party API that shows you can complete an external integration.
+- It would be good to see any 'additional' elements such as a webhook or other real-time response to a change in the application state.
+- Well laid out / thought through application components is good too see.
+### We want to also see that you can support use of APIs, GraphQL and Lambda functions to make the registration, login and app functional.
+### We expect to see some simple / lightweight documentation around the app / code that shows what you intend and how to deploy it.
+### The app should be deployed on AWS so we can see it running in the cloud.
+### You can use your preferred frameworks, but we want to see evidence of use of our core stack elements:
+- React.js
+- Node.js
+- DynamoDB
+- GraphQL
+- APIs
+- Lambda
+- If you use other frameworks / tools, please note them - so we can understand where / how e.g. typescript, bootstrap etc.
+  
+### Questions to think about
+This will test your ability to:
+- Think and develop creatively and create a small, but complete application
+- Show a range of full stack skills
+- Show how you approach problem solving with a bit of 'uncertainty' (i.e. you don't have all the requirements / design).
+
+GO FOR IT!
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

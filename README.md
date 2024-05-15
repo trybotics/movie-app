@@ -1,67 +1,72 @@
-## Create a small application that supports the following: (complete it in 48 hours (2 days) max)
+## Project Title: Advanced User Authentication and Integration Platform
 
-### User Registration
-- User registration should create an OTP request to confirm the account
-### User Login - login should use a database of user information to validate the login
-- If you are using the AWS standard cognito/IAM registration, please style it differently to mask the normal implementation and include more advanced functionality such as social login with at least one social provider (e.g. gmail or facebook)
-### Homepage - the homepage must display something interesting / useful with at least two integrations and should format for larger screen and phone.
-- One integration should display the results from an internal database query using a GraphQL API request that is displayed back to the user
-- The second integration should be to a third party API that shows you can complete an external integration.
-- It would be good to see any 'additional' elements such as a webhook or other real-time response to a change in the application state.
-- Well laid out / thought through application components is good too see.
-### We want to also see that you can support use of APIs, GraphQL and Lambda functions to make the registration, login and app functional.
-### We expect to see some simple / lightweight documentation around the app / code that shows what you intend and how to deploy it.
-### The app should be deployed on AWS so we can see it running in the cloud.
-### You can use your preferred frameworks, but we want to see evidence of use of our core stack elements:
-- React.js
-- Node.js
-- DynamoDB
-- GraphQL
-- APIs
-- Lambda
-- If you use other frameworks / tools, please note them - so we can understand where / how e.g. typescript, bootstrap etc.
-  
-### Questions to think about
-This will test your ability to:
-- Think and develop creatively and create a small, but complete application
-- Show a range of full stack skills
-- Show how you approach problem solving with a bit of 'uncertainty' (i.e. you don't have all the requirements / design).
+### Introduction
+This project aims to develop a comprehensive user authentication and integration platform within a tight timeframe of 48 hours. The application is designed to demonstrate proficiency in full-stack development, leveraging core AWS services and integrating with external APIs.
 
-GO FOR IT!
+### Features
+1. **User Registration**
+    - User registration initiates an OTP request for account confirmation.
+2. **User Login**
+    - Utilizes a database of user information for login validation.
+    - Customizes the AWS Cognito/IAM registration to include advanced features like social login with providers such as Gmail or Facebook.
+3. **Homepage**
+    - Displays engaging content with two integrations, catering to both larger screens and mobile devices.
+    - Integrates internal database query results using a GraphQL API request.
+    - Incorporates a third-party API to demonstrate external integration capabilities.
+    - Implements additional elements like webhooks for real-time responses to application state changes.
+4. **APIs, GraphQL, and Lambda Functions**
+    - Utilizes APIs, GraphQL, and Lambda functions for registration, login, and overall application functionality.
+5. **Documentation**
+    - Provides lightweight documentation detailing the application's intent and deployment procedures.
+6. **Deployment on AWS**
+    - Deploys the application on AWS for cloud-based accessibility and demonstration.
 
----
+### Stack Elements
+- **Frontend Framework**: React.js
+- **Backend Framework**: Node.js
+- **Database**: DynamoDB
+- **API Technology**: GraphQL
+- **Serverless Compute**: AWS Lambda
+- **Additional Tools**: Next.js (bootstrapped), TypeScript, Bootstrap (if used)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Development Instructions
 
-## Getting Started
+#### Getting Started
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies using npm or yarn:
+    ```bash
+    npm install
+    # or
+    yarn
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-First, run the development server:
+#### Learn More
+- Explore Next.js features and API in the [Next.js Documentation](https://nextjs.org/docs).
+- Try the interactive Next.js tutorial with [Learn Next.js](https://nextjs.org/learn).
+- Contribute to the Next.js project on [GitHub](https://github.com/vercel/next.js/).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Deployment
+- Deploy the Next.js app easily with the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+- Refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for detailed deployment instructions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Conclusion
+This project demonstrates a range of full-stack skills, creative problem-solving, and the ability to develop a complete application within constraints. By leveraging AWS services and integrating with external APIs, it showcases the capabilities of modern web development techniques.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Some Screenshots
+![image](https://github.com/trybotics/movie-app/assets/22857102/ebfdd041-b85d-4549-92de-1ed48880a26b)
+![image](https://github.com/trybotics/movie-app/assets/22857102/8962e6b8-f11f-48ac-aca8-010662f92893)
+![image](https://github.com/trybotics/movie-app/assets/22857102/7eeaae1c-ae3c-47b5-89e5-91d24e86847c)
+![image](https://github.com/trybotics/movie-app/assets/22857102/e589b93b-d82c-425c-9c3d-c9b896e9003b)
+![image](https://github.com/trybotics/movie-app/assets/22857102/58caeadf-6b5f-4930-9413-09330cb5a7d0)
+![image](https://github.com/trybotics/movie-app/assets/22857102/e2d40043-8905-415d-9ecc-2a1b28b7a458)
+![image](https://github.com/trybotics/movie-app/assets/22857102/746a13ff-77ab-4135-8354-70645befb718) ![image](https://github.com/trybotics/movie-app/assets/22857102/3f8b4bb0-8292-4829-9d78-992762a001f2)
+![image](https://github.com/trybotics/movie-app/assets/22857102/57da76db-dc7f-4b78-a19a-49fd84177d8e) ![image](https://github.com/trybotics/movie-app/assets/22857102/cd6568b7-0cbe-4a15-8e08-f4c300d29620)
+![image](https://github.com/trybotics/movie-app/assets/22857102/29271578-4538-4bdb-98c9-3294c38e455a) ![image](https://github.com/trybotics/movie-app/assets/22857102/2e4e647d-ccd1-43aa-ba54-438598d251ce)

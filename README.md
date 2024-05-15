@@ -1,9 +1,9 @@
-## Project Title: Advanced User Authentication and Integration Platform
+# Advanced User Authentication and Integration Platform
 
-### Introduction
+## Introduction
 This project aims to develop a comprehensive user authentication and integration platform within a tight timeframe of 48 hours. The application is designed to demonstrate proficiency in full-stack development, leveraging core AWS services and integrating with external APIs.
 
-### Features
+## Features
 1. **User Registration**
     - User registration initiates an OTP request for account confirmation.
 2. **User Login**
@@ -19,9 +19,9 @@ This project aims to develop a comprehensive user authentication and integration
 5. **Documentation**
     - Provides lightweight documentation detailing the application's intent and deployment procedures.
 6. **Deployment on AWS**
-    - Deploys the application on AWS for cloud-based accessibility and demonstration.
+    - Deploy the application on AWS for cloud-based accessibility and demonstration.
 
-### Stack Elements
+## Stack Elements
 - **Frontend Framework**: React.js
 - **Backend Framework**: Node.js
 - **Database**: DynamoDB
@@ -29,9 +29,9 @@ This project aims to develop a comprehensive user authentication and integration
 - **Serverless Compute**: AWS Lambda
 - **Additional Tools**: Next.js (bootstrapped), TypeScript, Bootstrap (if used)
 
-### Development Instructions
+## Development Instructions
 
-#### Getting Started
+### Getting Started
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Install dependencies using npm or yarn:
@@ -48,19 +48,19 @@ This project aims to develop a comprehensive user authentication and integration
     ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-#### Learn More
+### Learn More
 - Explore Next.js features and API in the [Next.js Documentation](https://nextjs.org/docs).
 - Try the interactive Next.js tutorial with [Learn Next.js](https://nextjs.org/learn).
 - Contribute to the Next.js project on [GitHub](https://github.com/vercel/next.js/).
 
-### Deployment
+## Deployment
 - Deploy the Next.js app easily with the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 - Refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for detailed deployment instructions.
 
-### Conclusion
+## Conclusion
 This project demonstrates a range of full-stack skills, creative problem-solving, and the ability to develop a complete application within constraints. By leveraging AWS services and integrating with external APIs, it showcases the capabilities of modern web development techniques.
 
-### Some Screenshots
+## Some Screenshots
 ![image](https://github.com/trybotics/movie-app/assets/22857102/ebfdd041-b85d-4549-92de-1ed48880a26b)
 ![image](https://github.com/trybotics/movie-app/assets/22857102/8962e6b8-f11f-48ac-aca8-010662f92893)
 ![image](https://github.com/trybotics/movie-app/assets/22857102/7eeaae1c-ae3c-47b5-89e5-91d24e86847c)
